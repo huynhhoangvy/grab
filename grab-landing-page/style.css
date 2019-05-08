@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-light{
+    background-color: rgba(255, 255, 255, 0.9)!important;
+}
+nav{
+    /* border-bottom: solid 1px #ddd; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-family: 'Sanomat Grab Web Regular', sans-serif;
+    font-weight: 500;
+}
+body{
+    height: 10000px;
+    font-size: 16px;
+    background-color: green;
+}
+div.dropdown-menu.show{
+    border: none;
+}
+li.list-group-item{
+    border:none;
+    border-right: solid 1px #ddd;
+}
+

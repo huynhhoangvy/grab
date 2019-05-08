@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ride Hailing Platform: BIkes, Cars & Taxi Booking | Grab</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/grab-icon.png">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-light bg-light">
+            <img src="img/Grab_logo.png">
+            <!-- <input type="image" src="img/vn.png"> -->
+            <!-- <div class="row">
+                <div class="school-options-dropdown text-center">
+                    <div class="dropdown btn-group">
+                
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose a School
+                        <span class="caret"></span>
+                    </button>
+                
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Add your school</a></li>
+                        <li><a href="#">Hello</a></li>
+                    </ul>
+                
+                    </div>
+                </div>
+            </div> -->
+            <div class="dropdown">                    
+                <button class="btn dropdown-toggle" type="button" id="dropdownRegion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/vn.png">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownRegion">
+                    <ul class="list-group flex-md-row">
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/sg.png">
+                                </br>
+                                Singapore
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/my.png">
+                                </br>
+                                Malaysia
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/ind.png">
+                                </br>
+                                Indonesia
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/th.png">
+                                </br>
+                                Thailand
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/vn.png">
+                                </br>
+                                Vietnam
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/ph.png">
+                                </br>
+                                Philipines
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/mm.png">
+                                </br>
+                                Myanmar
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/flag_kh.png">
+                                </br>
+                                Cambodia
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/globe.png">
+                                </br>
+                                Full city list
+                            </button>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownServices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownServices">
+                    <ul class="list-group flex-md-row">
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-taxi.png">
+                                </br>
+                                GrabTaxi
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-car.png">
+                                </br>
+                                GrabCar
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon_bike.png">
+                                </br>
+                                GrabBike
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon_express.png">
+                                </br>
+                                GrabExpress
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon_grabshare.png">
+                                </br>
+                                GrabShare
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-justgrab.png">
+                                </br>
+                                JustGrab
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-car.png">
+                                </br>
+                                Rent
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-grabfood.png">
+                                </br>
+                                Food
+                            </button>
+                        </li>                        
+                    </ul>
+                </div>        
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownServices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownServices">
+                    <ul class="list-group flex-md-row">
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-business.png">
+                                </br>
+                                Grab for Business
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn" type="button">
+                                <img src="img/icon-partner.png">
+                                </br>
+                                Partnership
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <!-- <button type="button">
+                    grabpay by moca
+                </button>
+                <button type="button">
+                    grab rewards
+                </button> -->
+            <button type="button">
+                <img src="img/GrabPayVn-LogoGPM-bw.png" style="width: 100px; height: 58px;"">
+            </button>
+            <button type="button">
+                <img src="img/grabrewards_logo_inline_black.png" style="width: 140px; height: 58px;">
+            </button>
+            <div class="dropdown">
+                <button class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownServices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Drive with Grab
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownServices">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <button>
+                                <img src="img/icon-car-white.png">
+                                Application Walkthrough
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button>
+                                <img src="img/driver_with_icons-white.png">
+                                Drive with Grab
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button>
+                                <img src="img/icon-car-white.png">
+                                Car Owner
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button>
+                                <img src="img/icon-taxi-white.png">
+                                Taxi Driver
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button>
+                                <img src="img/icon_bike-white.png">
+                                Bike & Express Driver
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    </html>
