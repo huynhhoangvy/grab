@@ -5,9 +5,10 @@
 }
 .bg-light{
     background-color: rgba(255, 255, 255, 0.9)!important;
+    opacity: 90%;
 }
 nav{
-    /* border-bottom: solid 1px #ddd; */
+    border-bottom: solid 1px #ddd;
     left: 0;
     top: 0;
     width: 100%;
@@ -25,5 +26,5 @@ div.dropdown-menu.show{
 li.list-group-item{
     border:none;
     border-right: solid 1px #ddd;
-}
 
+}
